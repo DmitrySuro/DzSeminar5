@@ -13,7 +13,7 @@ int[] NewArray (int[] array)
     return array;
 }
 
-int EvenNumberInArray(int[] array)
+int CountEvenNumberInArray(int[] array)
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
@@ -34,5 +34,5 @@ int[] array = new int[size];
 array = NewArray(array);
 
 System.Console.WriteLine("[" + string.Join(", ", array) + "]");
-System.Console.WriteLine(EvenNumberInArray(array));
+System.Console.WriteLine(CountEvenNumberInArray(array));
 
